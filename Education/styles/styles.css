@@ -9,12 +9,12 @@ h1 {
       padding-bottom: 1em;
       padding-top: .5em;
       font-family: Verdana, Geneva, Tahoma, sans-serif, Cochin;
-      }
+    }
       h1:hover {
             color: black;
           }
 header p
-{text-align: center;
+      {text-align: center;
             width: 20%;
             margin: 0 auto;
             color: white;
@@ -57,7 +57,8 @@ main p {
       margin: 0 auto;
       padding-bottom: 1em;
       }
-footer {text-align: center;
+footer {
+      text-align: center;
       font-size: small;
       font-family: Verdana, Geneva, Tahoma, sans-serif, Cochin;
       padding-bottom: 1em;

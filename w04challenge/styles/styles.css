@@ -1,29 +1,31 @@
-body {background-color: #fca6c9;
+body {
+      background-color: #fca6c9;
       }
-nav {text-align: center;
-      font-size: 40px;
+h1 {
+      text-align: center;
+      font-size: 30px;
       font-weight: bold;
       color: white;
       padding-bottom: 1em;
       padding-top: .5em;
-      font-family: Roboto;
+      font-family: Verdana, Geneva, Tahoma, sans-serif, Cochin;
       }
-      a:hover {
-            background-color: white;
+      h1:hover {
             color: black;
           }
-header p 
+header p
 {text-align: center;
-            width: 27%;
+            width: 20%;
             margin: 0 auto;
             color: white;
             padding-bottom: 1em;
-            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 12px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif, Cochin;
       }
 h3 {
       width: 30%;
       margin: 0 auto;
-      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-family: Verdana, Geneva, Tahoma, sans-serif, Cochin;
       color: white;
       line-height: 2em;
       padding-bottom: 1em;
@@ -34,29 +36,34 @@ ol {
       width: 20%;
       margin: 0 auto;
       font-weight: bolder;
-      padding-bottom: 2em;
-      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-family: Verdana, Geneva, Tahoma, sans-serif, Cochin;
       line-height: 2em;
+      padding-bottom: 2em;
+      font-size: 11px;
       }
-img {display: block;
-      width: 30%;
+img {
+      display: block;
+      width: 10%;
       margin-left: auto;
       margin-right: auto;
+      padding-bottom: 1em;
       }
 
-main p {text-align: center;
+main p {
+      text-align: center;
       color: white;
-      font-size: 28px;
-      width: 25%;
+      font-size: 30px;
+      width: 20%;
       margin: 0 auto;
       padding-bottom: 1em;
       }
 footer {text-align: center;
       font-size: small;
+      font-family: Verdana, Geneva, Tahoma, sans-serif, Cochin;
       padding-bottom: 1em;
-      width: 25%;
+      width: 13%;
       margin: 0 auto;
-      font-weight: bold;
-      }
+      font-size: 10px;
+     }
 
      

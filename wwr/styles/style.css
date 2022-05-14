@@ -50,13 +50,14 @@ width: 200px;
     background-color: white;
 }
 .msg {
-  background-color: #EB9E23; 
+  background-color: #1472A5;
+  color: white;
 }
 .msg h2 {
     color: white;
 }
 footer {
-    background-color: #1472A5;
+    background-color: #EB9E23; 
     color: #ffff;
     }
 footer a {
@@ -65,7 +66,7 @@ footer a {
 }
 footer h3 a:hover {
     text-decoration: underline;
-    color: #EB9E23; 
+    color: #1472A5;
 }
 .home-title {
     color: black;

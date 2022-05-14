@@ -35,7 +35,10 @@ nav a {
 main section {
     text-align: center;
 }
-.logo, .icon {
+.logo {
+    width: 150px;
+}
+.icon {
 width: 80px;
 }
 #background {

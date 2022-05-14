@@ -14,8 +14,11 @@ color: white;
 h1, h2 {
     color: #1472A5;
 }
-h3, h4 {
+h3 {
     color: white;
+}
+h4 {
+    Color: black;
 }
 #content {
     max-width: 1600px;
@@ -73,7 +76,4 @@ footer h3 a:hover {
 }
 .home-title {
     color: black;
-}
-h4 {
-    Color: black;
 }

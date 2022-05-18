@@ -1,5 +1,6 @@
 .firstSection img{
     width: 100%;
+    display: block;
 }
 .firstSection {
 margin: 0;

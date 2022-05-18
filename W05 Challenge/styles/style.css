@@ -1,0 +1,32 @@
+.firstSection img{
+    width: 100%;
+}
+.firstSection {
+margin: 0;
+padding: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+.secondSection {
+    width: 100%;
+    background-color: gray;
+    height: 800px;
+}
+.imageCard {
+    float: left;
+    width: 33.33%;
+}
+.imageCard img {
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 20%;
+    border-radius: 50%;
+    border: 10px solid #444444;
+    margin-bottom: 20%;
+}
+.week05 {
+text-align: center;
+font-size: 40px;
+}

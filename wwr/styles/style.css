@@ -184,7 +184,7 @@ footer .social img {
   }
   .card-img:hover {
       opacity: .6;
-      transform: scale(1,1);
+      transform: scale(1.1);
   }
   .card-img, .mountains {
       width: 100%;
@@ -212,7 +212,7 @@ footer .social img {
         color: #6f7364;
     }
     .rivers-card, .camping-card, .rapids-card {
-        margin: 50px auto;
+        margin: 100px 0;
         width: 60%;
     }
     #background {

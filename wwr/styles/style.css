@@ -153,6 +153,7 @@ footer h3 a:hover {
     font-family: Verdana, Tahoma, sans-serif;
     font-size: 2em;
     margin-top: 10px;
+    margin: 50px;
 }
 footer .social img {
     padding-top: 15px;
@@ -207,6 +208,7 @@ footer .social img {
     }
     #hero-msg {
         margin-top: 0;
+        margin: 50px
     }
     .home-title {
         font-size: 25px;

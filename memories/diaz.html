@@ -4,95 +4,87 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Provide information about the Diaz Family.">
-        <title>Diaz Family</title>
-        <link rel="stylesheet" href="styles/style.css">
-        <script src="scripts/picture-shifter.js"></script>
-    </head>
-    <body onkeydown="Shift()">
-        <div class="menu">
-            <input type="checkbox" id="toggler">
-            <label id="menu-click" for="toggler">
-                <img src="images/dash.png" alt="a bar for the menu">
-                <img src="images/dash.png" alt="a bar for the menu">
-                <img src="images/dash.png" alt="a bar for the menu">
-            </label>
-            <nav class="box-menu">
-                <h2>Menu</h2>
-                <ul>
-                    <li><a href="./index.html"    class="at">Home</a></li>
-                    <li><a href="./diaz.html"     class="">Diaz Family</a></li>
-                    <li><a href="./quintero.html" class="">Quintero Family</a></li>
-                </ul>
-            </nav>
-        </div>
-        <header>
+    <title>Diaz Family</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="scripts/picture-shifter.js"></script>
+</head>
+<body onkeydown="Shift()">
+    <div class="menu">
+        <input type="checkbox" id="toggler">
+        <label id="menu-click" for="toggler">
+            <img src="images/dash.png" alt="a bar for the menu">
+            <img src="images/dash.png" alt="a bar for the menu">
+            <img src="images/dash.png" alt="a bar for the menu">
+        </label>
+        <nav class="box-menu">
+            <h2>Menu</h2>
+            <ul>
+                <li><a href="./index.html"    class="at">Home</a></li>
+                <li><a href="./diaz.html"     class="">Diaz Family</a></li>
+                <li><a href="./quintero.html" class="">Quintero Family</a></li>
+            </ul>
+        </nav>
+    </div>
+    <header>
+        <div>
+        <img src="images/favicon.png" alt="website logo"
+             class="web-logo">
+        <h1>The Diaz Memories Site </h1></div>
+        <nav>
+            <ul>
+                <li><a href="./index.html"    class="at">Home</a></li>
+                <li><a href="./diaz.html"     class="">Diaz Family</a></li>
+                <li><a href="./quintero.html" class="">Quintero Family</a></li>
+
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="photo-spotlight">
+            <button id="go-left" onclick="Shift('right')">&lt;</button>
             <div>
-            <img src="images/favicon.png" alt="website logo"
-                 class="web-logo">
-            <h1>The Diaz Memories Site </h1></div>
-            <nav>
-                <ul>
-                    <li><a href="./index.html"    class="at">Home</a></li>
-                    <li><a href="./diaz.html"     class="">Diaz Family</a></li>
-                    <li><a href="./quintero.html" class="">Quintero Family</a></li>
-
-                </ul>
-            </nav>
-        </header>
-        <main>
-            <div class="photo-spotlight">
-                <button id="go-left" onclick="Shift('right')">&lt;</button>
-                <div>
-                <img class="img-l4 img-shift" src="images/changing2/two.jpg" alt="Picture 1">
-                <img class="img-l3 img-shift" src="images/changing2/Three.jpg" alt="Picture 2">
-                <img class="img-l2 img-shift" src="images/changing2/Four.jpg" alt="Picture 3">
-                <img class="img-l1 img-shift" src="images/changing2/five.jpg" alt="Picture 4">
-                <img class="img-mc img-shift" src="images/changing2/six.jpg" alt="Picture 5">
-                <img class="img-r1 img-shift" src="images/changing2/seven.jpg" alt="Picture 6">
-                <img class="img-r2 img-shift" src="images/changing2/eight.jpg" alt="Picture 7">
-                <img class="img-r3 img-shift" src="images/changing2/nine.jpg" alt="Picture 8">
-                <img class="img-r4 img-shift" src="images/changing2/ten.jpg" alt="Picture 9">
-                <img class="img-r5 img-shift" src="images/changing2/one.jpg" alt="Picture 10">
-                </div>
-                <button id="go-right" onclick="Shift('left')">&gt;</button>
+            <img class="img-l4 img-shift" src="images/changing2/two.jpg" alt="Picture 1">
+            <img class="img-l3 img-shift" src="images/changing2/Three.jpg" alt="Picture 2">
+            <img class="img-l2 img-shift" src="images/changing2/Four.jpg" alt="Picture 3">
+            <img class="img-l1 img-shift" src="images/changing2/five.jpg" alt="Picture 4">
+            <img class="img-mc img-shift" src="images/changing2/six.jpg" alt="Picture 5">
+            <img class="img-r1 img-shift" src="images/changing2/seven.jpg" alt="Picture 6">
+            <img class="img-r2 img-shift" src="images/changing2/eight.jpg" alt="Picture 7">
+            <img class="img-r3 img-shift" src="images/changing2/nine.jpg" alt="Picture 8">
+            <img class="img-r4 img-shift" src="images/changing2/ten.jpg" alt="Picture 9">
+            <img class="img-r5 img-shift" src="images/changing2/one.jpg" alt="Picture 10">
             </div>
-            <section class="not-grid">
-                <h2>Diaz Family Memories</h2>
+            <button id="go-right" onclick="Shift('left')">&gt;</button>
+        </div>
+        <section class="not-grid">
+            <h2>Diaz Family Memories</h2>
+            <p>
+                Implementing my solution will help me show our Memories Personal Site that will help our families grow together and I can leave something to our grandchildren to continue the work. I would love to tell you more about what I am working on. Wait, is there a time that we can talk in the next day or two? Or just wait for the upcoming release of my personal web site and you can see it for yourself.
+            </p>
+        </section>
+        <section class="dif-grid header-section">
+            <img src="images/montreal.jpg" alt="Montreal Temple">
+            <div>
+                <h2>First Time in The Montreal Temple</h2>
                 <p>
-                    Implementing my solution will help me show our Memories Personal Site that will help our families grow together and I can leave something to our grandchildren to continue the work. I would love to tell you more about what I am working on. Wait, is there a time that we can talk in the next day or two? Or just wait for the upcoming release of my personal web site and you can see it for yourself.
+                    In the temples members of the Church who make themselves eligible can participate in the most exalted of the redeeming ordinances that have been revealed to mankind. 
+                    There, in a sacred ceremony, an individual may be washed and anointed and instructed and endowed and sealed. And when we have received these blessings for ourselves
+                     we may officiate for those who have died without having had the same opportunity. 
                 </p>
-            </section>
-            <section class="dif-grid header-section">
-                <img src="images/montreal.jpg" alt="Montreal Temple">
-                <div>
-                    <h2>First Time in The Montreal Temple</h2>
-                    <p>
-                        In the temples members of the Church who make themselves eligible can participate in the most exalted of the redeeming ordinances that have been revealed to mankind. 
-                        There, in a sacred ceremony, an individual may be washed and anointed and instructed and endowed and sealed. And when we have received these blessings for ourselves
-                         we may officiate for those who have died without having had the same opportunity. 
-                    </p>
-                </div>
-            </section>
-            <section class="not-grid">
-                </div>
-
-        </main>
-        <footer>
-            <h3>Memories &copy; 2022 - Benjamin Diaz</h3>
-            <h3><a href="site-plan.html">Site Plan</a></h3>
-            <div class="social">
-                <a title="follow us on facebook" href="https://www.facebook.com/" target="_blank">
-                    <img src="images/facebook-icon.png" alt="icon for facebook" class="social-link"></a>
-                <a title="follow us on instagram" href="https://www.instagram.com/" target="_blank">
-                    <img src="images/instagram-icon.png" alt="icon for instagram" class="social-link"></a>
-                <a title="follow us on twitter" href="https://twitter.com/" target="_blank">
-                    <img src="images/twitter-icon.png" alt="icon for twitter" class="social-link"></a>
             </div>
-         </footer>
-    </body>
+        </section>
+    </main>
+    <footer>
+        <h3>Memories &copy; 2022 - Benjamin Diaz</h3>
+        <h3><a href="site-plan.html">Site Plan</a></h3>
+        <div class="social">
+            <a title="follow us on facebook" href="https://www.facebook.com/" target="_blank">
+                <img src="images/facebook-icon.png" alt="icon for facebook" class="social-link"></a>
+            <a title="follow us on instagram" href="https://www.instagram.com/" target="_blank">
+                <img src="images/instagram-icon.png" alt="icon for instagram" class="social-link"></a>
+            <a title="follow us on twitter" href="https://twitter.com/" target="_blank">
+                <img src="images/twitter-icon.png" alt="icon for twitter" class="social-link"></a>
+        </div>
+     </footer>
+</body>
 </html>

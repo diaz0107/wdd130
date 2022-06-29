@@ -7,6 +7,7 @@
     --accent2-color: #FFFFFF;
     --heading-font: 'Carter One', Impact, sans-serif;
     --paragraph-font: 'Baloo Tamma 2', Verdana, sans-serif;
+
 }
 html {
     background-image: linear-gradient(to bottom, gray, black);
@@ -87,7 +88,7 @@ nav a:link, nav a:visited {
 }
 nav a:hover {
     color: var(--accent1-color);
-    text-shadow: 1px 1px #f5f5f570;
+    text-shadow: 1px 1px black;
     background: var(--secondary-color);
     box-shadow: 0 0 10px var(--secondary-color);
 }
@@ -112,7 +113,7 @@ main {
 *//
 
 footer {
-    background-color: #1472A5; 
+    background-color: #A0CFD3; 
     color: #ffff;
     padding: 25px 50px;
     margin-top: 200px;
@@ -678,7 +679,7 @@ section.dif-grid:nth-of-type(even) > div {
     }
 }
 footer {
-    background-color: #1472A5; 
+    background-color: #52b2cf; 
     color: #ffff;
     padding: 25px 50px;
     margin-top: 200px;
@@ -693,7 +694,7 @@ footer a {
 }
 footer h3 a:hover {
     text-decoration: underline;
-    color: #EB9E23;
+    color: #FBD75D;
 footer .social img {
     padding-top: 15px;
 }

@@ -41,12 +41,12 @@ section ul, p {
 header {
     z-index: 10;
     display: flex;
-    padding: 5px 1em;
+    padding: 5px 0px;
     padding-top: 8px;
     position: relative;
     text-align: center;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     color: var(--accent2-color);
     background-color: var(--accent1-color);
 }
@@ -102,21 +102,11 @@ main {
     overflow: hidden;
     z-index: 9;
 }
-//* footer {
-    background-color: var(--accent1-color);
-    font-family: var(--paragraph-font);
-    color: var(--accent2-color);
-    position: relative;
-    padding: 1em;
-    z-index: 10;
-}
-*//
 
 footer {
     background-color: #A0CFD3; 
     color: #ffff;
     padding: 25px 50px;
-    margin-top: 200px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -224,7 +214,6 @@ section > h2, section > div > h2 {
 }
 .social {
     float: right;
-    margin-right: 150px;
 }
 .indent {
     padding-left: 20px;
@@ -681,8 +670,7 @@ section.dif-grid:nth-of-type(even) > div {
 footer {
     background-color: #52b2cf; 
     color: #ffff;
-    padding: 25px 50px;
-    margin-top: 200px;
+    padding: 25px 0px;
     display: flex;
     justify-content: space-around;
     align-items: center;

@@ -683,8 +683,7 @@ footer a {
 footer h3 a:hover {
     text-decoration: underline;
     color: #FBD75D;
-}
-    footer .social img {
+footer .social img {
     padding-top: 15px;
 }
 
@@ -701,4 +700,4 @@ footer h3 a:hover {
 }
     nav, footer {
         flex-direction: column;
-    }
+

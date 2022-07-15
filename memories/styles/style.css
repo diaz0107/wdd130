@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Baloo+Tamma+2|Carter+One&display=swap');
 
 :root {
-    --primary-color: #b5b4ed;
+    --primary-color: gray;
     --secondary-color: #FBD75D;
     --accent1-color: black#A0CFD3;
     --accent2-color: #FFFFFF;
@@ -683,7 +683,6 @@ footer a {
 footer h3 a:hover {
     text-decoration: underline;
     color: #FBD75D;
-}
 footer .social img {
     padding-top: 15px;
 }
@@ -701,5 +700,4 @@ footer .social img {
 }
     nav, footer {
         flex-direction: column;
-    }
 
